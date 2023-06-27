@@ -1,0 +1,10 @@
+summary(model)
+
+lm(formula = Y ~ X, data = dad_rl)
+summary (dad_rl)
+view(dad_rl)
+#modelo <- lm(X~YI(X^2), data ~ dad_rl)
+#dad_rl <- data.frame.matrix(X=X,Y=Y)
+summary(model) 
+lm(formula = Y ~ X, data = dad_rl)
+dad_rl <- lm(Y ~ X)        
